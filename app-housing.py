@@ -12,7 +12,7 @@ def load_data() -> pd.DataFrame:
 
 df = load_data()
 
-st.title("California Housing Data (1990) by Minyang")
+st.title("California Housing Data (1990) by Yuxiu")
 
 minimum_value = st.slider(
     "Minimal Median House Value", min_value=0, max_value=500001, value=200000
